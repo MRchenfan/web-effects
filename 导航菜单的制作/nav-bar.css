@@ -1,0 +1,244 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  font:14px/1.4286 "microsoft yahei";
+}
+a{
+  display:inline-block;
+  text-decoration:none;
+  color:#000;
+}
+a:hover{
+  color:#F43E71;
+}
+nav ul{
+  list-style:none;
+}
+h2{
+  background: #333;
+  color:#fff;
+  padding:10px;
+  margin:20px 0;
+}
+i{
+  display:inline-block;
+  height:100%;
+  background-position: left center;
+}
+/* common css */
+.nav-bar-1{
+  width:100px;
+  height:300px;
+}
+.nav-bar-1 a{
+  width:100%;
+  line-height: 36px;
+  text-indent: 10px;
+  background: #999;
+  margin-bottom:5px;
+  -webkit-transition:text-indent 1s;
+}
+.nav-bar-1 a:hover{
+  color:inherit;
+  background: #F9BEBE;
+  text-indent:30px;
+}
+/******垂直导航条******/
+.nav-bar-2{
+  height:36px;
+  background: #999;
+}
+.nav-bar-2 a{
+  width:100px;
+  line-height: 36px;
+  text-align:center;
+  background: #973EFD;
+  margin-right:10px;
+  -webkit-transition:width 1s;
+}
+.nav-bar-2 a:hover{
+  color:inherit;
+  background: #B6D86D;
+  width:150px;
+}
+.nav-bar-2 li{
+  float:left;
+}
+/* 网页首页头部 */
+.net-ease-header{
+  height:43px;
+  background: #333;
+  border-bottom:2px solid #606060;
+}
+.wrapper-width{
+  width:960px;
+  height:100%;
+  margin:0 auto;
+}
+.net-ease-header nav li{
+  float:left;
+}
+.header-nav-left{
+  float:left;
+  height:100%;
+}
+.header-nav-right{
+  float:right;
+}
+.header-nav-left a,
+.header-nav-right a{
+  line-height: 43px;
+  text-align: center;
+  color:#fff;
+  padding:0 10px;
+}
+.header-nav-left a:hover,
+.header-nav-right a:hover{
+  text-decoration: underline;
+}
+.net-ease-header i{
+  height:23px;
+  width:25px;
+  vertical-align: middle;
+  text-indent: 100%;
+  overflow: hidden;
+}
+.icon-koala{
+  background: url(http://img2.cache.netease.com/f2e/include/common_nav/images/nav_sprite_v39.png) no-repeat;
+  background-position: 0 0px;
+}
+.icon-email{
+  background: url(http://img2.cache.netease.com/f2e/include/common_nav/images/nav_sprite_v39.png) no-repeat;
+  background-position: 0 -23px;
+}
+.icon-pay{
+  background: url(http://img2.cache.netease.com/f2e/include/common_nav/images/nav_sprite_v39.png) no-repeat;
+  background-position: 0 -46px;
+}
+.icon-cart{
+  background: url(http://img2.cache.netease.com/f2e/include/common_nav/images/nav_sprite_v39.png) no-repeat;
+  background-position: 0 -504px;
+}
+.icon-dating{
+  background: url(http://img2.cache.netease.com/f2e/include/common_nav/images/nav_sprite_v39.png) no-repeat;
+  background-position: 0 -93px;
+}
+.icon-lofter{
+  background: url(http://img2.cache.netease.com/f2e/include/common_nav/images/nav_sprite_v39.png) no-repeat;
+  background-position: 0 -116px;
+}
+.icon-download{
+  background: url(http://img2.cache.netease.com/f2e/include/common_nav/images/nav_sprite_v39.png) no-repeat;
+  background-position: 0 -542px;
+}
+.net-ease-header .header-nav-right .icon-lofter{
+  width:50px;
+}
+.net-ease-header .nav-arrow{
+  display:inline-block;
+  width:0;
+  height:0;
+  border-top:4px solid #fff;
+  border-right:4px solid transparent;
+  border-bottom: 0;
+  border-left:4px solid transparent;
+  margin:0 10px;
+  -webkit-transition:transform 0.5s;
+  opacity:0.5;
+}
+.net-ease-header li:hover .nav-arrow{
+  -webkit-transform:rotate(180deg);
+}
+
+
+.header-nav-left li,
+.header-nav-right li{
+  position:relative;
+}
+
+.nav-btn-list{
+  position:absolute;
+  top:43px;
+  left:0px;
+  background: #fff;
+  border:1px solid #999;
+  display:none;
+}
+.nav-btn-list li{
+  height:36px;
+  line-height:36px;
+  padding:0 10px;
+  width:100px;
+}
+.nav-btn-list li:hover{
+  background: #EBE8E8;
+}
+.nav-btn-list li a{
+  line-height: inherit;
+  height:100%;
+  width:100%;
+  border-bottom:1px dashed #999;
+  padding:0;
+  maring:0;
+  color:#000;
+}
+ .net-ease-header li:hover .nav-btn-list{
+  display:block;
+} 
+/* 网易页脚 */
+.net-ease-footer{
+  height:36px;
+  background: #333;
+}
+.copyright{
+  line-height: 36px;
+  float:left;
+  color:#fff;
+}
+.footer-nav{
+  line-height: 36px;
+  float:right;
+}
+.footer-nav li{
+  float:left;
+
+}
+.footer-nav li a{
+  display:inline;
+  color:#fff;
+  text-align:center;
+  padding:0 20px;
+  border-left:1px solid #eee;
+}
+.footer-nav li a:hover{
+  text-decoration:underline;
+}
+
+/* 分页按钮 */
+.page-nav-bar {
+  height:30px;
+  margin:50px 0;
+  width:960px;
+  margin:0 auto;
+}
+.page-nav-bar li{
+  float:left;
+}
+.page-nav-bar a{
+  line-height: 30px;
+  text-align: center;
+  border:1px solid #F5A6A6;
+  padding:0 8px;
+  margin:0 5px;
+}
+.page-nav-bar li span{
+  line-height: 36px;
+}
+.page-nav-bar a:hover,
+.page-nav-bar .current-page a{
+  background:#F7D7D7;
+}
+
