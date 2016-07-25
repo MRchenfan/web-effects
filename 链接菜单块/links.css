@@ -1,0 +1,249 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font:14px/1.8426 "microsoft yahei";
+  background: #fff;
+}
+a{
+  display:inline-block;
+  text-decoration:none;
+  color:#000;
+}
+a:hover{
+  color:#F54D4D;
+  text-decoration:underline;
+}
+ul{
+  list-style: none;
+}
+.clearfix:after{
+  content:"";
+  display:block;
+  height:0;
+  clear:both;
+}
+h6{
+  line-height: 36px;
+  font-size:20px; 
+  background: #333;
+  color: #fff;
+  text-indent: 50px;
+  margin-bottom: 30px;
+}
+i{
+  display:inline-block;
+}
+/* common use */
+.net-ease-head{
+  width:960px;
+  margin:0 auto;
+}
+.net-ease-head .head-logo{
+  padding-top:50px;
+  height:100px;
+  border-bottom:4px solid #469CEA;
+}
+.head-logo .icon-logo{
+  width:200px;
+  height:50px;
+  background: url(http://img1.cache.netease.com/f2e/www/index2014/images/bg_sprites_v19.png) no-repeat;
+  background-position:0 5px;
+}
+.head-nav{
+  margin:10px -10px;
+}
+.head-nav .nav-list{
+  float:left;
+  width:16.666666666%;
+  padding-right:10px;
+  padding-left:10px;
+  border-right:1px dashed #D3CFCF;
+}
+.head-nav .nav-list dt,
+.head-nav .nav-list dd{
+  float:left;
+  width:25%;
+  white-space:nowrap;
+  font-size:12px;
+}
+.head-nav .nav-list dt{
+  font-size:14px;
+}
+.head-nav .border-none{
+  border:none;
+}
+/* 网易首页头部导航 */
+.sina-head{
+  width:1000px;
+  margin:0 auto;
+}
+
+.head-logo .icon-logo{
+  width:150px;
+  line-height:50px;
+  background: url(http://i1.sinaimg.cn/dy/deco/2013/0329/logo/LOGO_1x.png) 1x,url(http://i2.sinaimg.cn/dy/deco/2013/0329/logo/LOGO_2x.png) no-repeat;
+
+}
+.head-logo .icon-logo,
+.head-logo .head-search,
+.head-logo .head-weather,
+.head-logo .head-ad1,
+.head-logo .head-ad2{
+  float:left;
+}
+
+.head-search{
+  height:50px;
+  padding-top:5px;
+}
+.head-search .form-group{
+  display:inline-block;
+  height:40px;
+}
+.head-search select{
+  width:100px;
+  height:100%;
+  float:left;
+  border-right:none;
+  border-radius:5px 0 0 5px;
+}
+.head-search input[type="text"]{
+  width:250px;
+  height:100%;
+  float:left;
+}
+.head-search input[type="button"]{
+  width:50px;
+  height:100%;
+  border:none;
+  background: #ED7E25;
+  float:left;
+}
+.head-search select:focus,
+.head-search input:focus{
+  outline: none;
+}
+.head-search input[type="button"]:hover{
+  opacity:0.5;
+}
+
+
+.head-logo .head-weather{
+  width:100px;
+  height:50px;
+  background: #61E6AC;
+  margin:0 30px;
+}
+.head-logo .head-ad1,
+.head-logo .head-ad2{
+  width:100px;
+  height:50px;
+  background: #B4CADE;
+}
+.head-logo .head-ad2{
+  width:130px;
+  margin-left:10px;
+}
+
+.sina-head .head-nav{
+  width:920px;
+  margin:20px -10px;
+  position:relative;
+}
+.sina-head .head-nav .nav-list{
+  width:20%;
+  padding: 0 10px;
+  border-right:1px solid #F9CE6F;
+  float:left;
+}
+.sina-head .head-nav .nav-list-sm{
+  width:80px;
+  border:none;
+  position:absolute;
+  right:-80px;
+  top:0;
+}
+.nav-list-sm a:hover{
+  text-decoration: none;
+}
+.sina-head .nav-list-sm dl dd{
+  text-align:center;
+  width:100%;
+}
+.nav-list-sm .nav-list-more:hover{
+  background: #eee;
+}
+
+.icon-arrow{
+  font-family:"Times";
+  font-size:16px;
+  -webkit-transform:rotate(90deg);
+  color:#F29C2D;
+}
+.nav-list-sm .nav-list-more{
+  text-indent:8px;
+  position:relative;
+}
+.nav-more{
+  position:absolute;
+  top:28px;
+  left:0;
+  border:1px solid #FDBB42;
+  border-bottom: none;
+  border-top:none;
+  text-indent:0px;
+  display:none;
+  background: #fff;
+}
+.nav-more a{
+  width:60px;
+  text-align:center;
+  border-bottom:1px solid #FDBB42;
+}
+.nav-list-sm .nav-list-more:hover .nav-more{
+  display:block;
+}
+/* 新浪头部 */
+.arrows{
+  padding:50px;
+  background: #eee;
+}
+.arrow{
+  margin-right:50px;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  border-top:5px solid #F23636;
+  border-right:5px solid #F23636;
+}
+.arrow-right{
+  -webkit-transform:rotate(45deg);
+  -webkit-transition:transform 0.5s;
+}
+.arrow-right:hover{
+  -webkit-transform:rotate(135deg);
+}
+.arrow-down{
+  -webkit-transform:rotate(135deg);
+  -webkit-transition:transform 0.5s;
+}
+.arrow-down:hover{
+  -webkit-transform:rotate(-45deg);
+}
+.arrow-up{
+  -webkit-transform:rotate(-45deg);
+  -webkit-transition:transform 0.5s;
+}
+.arrow-up:hover{
+  -webkit-transform:rotate(135deg);
+}
+.arrow-left{
+  -webkit-transform:rotate(-135deg);
+  -webkit-transition:transform 0.5s;
+}
+.arrow-left:hover{
+  -webkit-transform:rotate(135deg);
+}
