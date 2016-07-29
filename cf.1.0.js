@@ -171,7 +171,7 @@ var eventUtil={
 *		3.
 *		4.框架可以改变尺寸类的运动，但是也可以用来改变颜色
 */
-function startMove(element,json,fn){		
+function startMove(element,json,fn){	
 	clearInterval(element.timer);			
 	element.timer=setInterval(function(){
 		var flag=true;
@@ -204,7 +204,7 @@ function startMove(element,json,fn){
 				}
 			}
 		}
-	},30)	
+	},10)	
 }
 /*
 *	date:
