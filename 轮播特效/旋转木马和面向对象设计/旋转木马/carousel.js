@@ -8,6 +8,7 @@
 			this.nextBtn               = poster.find("div.poster-next-btn");
 			this.prevBtn               = poster.find("div.poster-prev-btn");
 			this.posterItems        =poster.find("li.poster-item");
+
 			if(this.posterItems.size()%2==0){
 				this.posterItemMain.append(this.posterItems.eq(0).clone());
 				this.posterItems = this.posterItemMain.children();
@@ -143,7 +144,7 @@
 				
 				var firstLeft = (this.setting.width-this.setting.posterWidth)/2;
 				var fixOffsetLeft = firstLeft+rw;
-				//设置左边位置关系
+	
 				rightSlice.each(function(i){
 					level--;
 					rw = rw *self.setting.scale;

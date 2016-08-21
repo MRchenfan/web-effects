@@ -8,18 +8,32 @@
   <script src="carouse.js"></script>
 </head>
 <body>
-  <h6>选装木马和面向对象设计</h6>
-  <div class="carouse-wrap J_Poster">
-    <div class="prev-btn">&lt</div>
-    <ul>
-      <li class="carouse-item"><a href=""><img src="images/1.jpg" alt=""></a></li>
-      <li class="carouse-item"><a href=""><img src="images/2.jpg" alt=""></a></li>
-      <li class="carouse-item"><a href=""><img src="images/3.jpg" alt=""></a></li>
-      <li class="carouse-item"><a href=""><img src="images/4.jpg" alt=""></a></li>
-      <li class="carouse-item"><a href=""><img src="images/5.jpg" alt=""></a></li>
-      <li class="carouse-item"><a href=""><img src="images/6.jpg" alt=""></a></li>
+  <h6>旋转木马和面向对象设计</h6>
+  <div class="carouse-wrap J_Poster" data-setting='
+                                    {
+      "width":1000,
+      "height":270,
+      "posterWidth":640,
+      "posterHeight":270,
+      "scale":0.9,
+      "speed":500,
+      "verticalAlign":"middle"
+      }
+  '>
+    <div class="prev-btn">
+      <div class="prev-arrow"></div>
+    </div>
+    <ul class="poster-list">
+      <li class="poster-item"><a href=""><img src="images/1.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="images/2.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="images/3.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="images/4.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="images/5.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="images/6.jpg" alt=""></a></li>
     </ul>
-    <div class="next-btn">&gt</div>
+    <div class="next-btn">
+      <div class="next-arrow"></div>
+    </div>
   </div>
 <script>
   $(function(){
