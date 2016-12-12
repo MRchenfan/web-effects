@@ -1,0 +1,29 @@
+{
+  "name": "web_effects",
+  "version": "1.0.0",
+  "description": "exercise and laboratory",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MRchenfan/web_effects.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "MRchenfan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MRchenfan/web_effects/issues"
+  },
+  "homepage": "https://github.com/MRchenfan/web_effects#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.13.1"
+  }
+}
