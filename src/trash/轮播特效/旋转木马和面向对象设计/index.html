@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>旋转木马特效</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="../../jquery-3.1.0.js"></script>
+  <script src="carouse.js"></script>
+</head>
+<body>
+  <h6>旋转木马和面向对象设计</h6>
+  <div class="carouse-wrap J_Poster" data-setting='
+                                    {
+      "width":1000,
+      "height":270,
+      "posterWidth":640,
+      "posterHeight":270,
+      "scale":0.9,
+      "speed":500,
+      "verticalAlign":"middle"
+      }
+  '>
+    <div class="prev-btn">
+      <div class="prev-arrow"></div>
+    </div>
+    <ul class="poster-list">
+      <li class="poster-item"><a href=""><img src="images/1.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="images/2.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="images/3.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="images/4.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="images/5.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="images/6.jpg" alt=""></a></li>
+    </ul>
+    <div class="next-btn">
+      <div class="next-arrow"></div>
+    </div>
+  </div>
+<script>
+  $(function(){
+      Carousel.init($(".J_Poster"));
+  });
+</script>
+</body>
+</html>
